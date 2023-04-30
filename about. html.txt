@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title> About Us </title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{ display: flex;
+ 
+justify-content: center; align-items: center; min-height: 100vh; background:
+rgba(0,0,0,0.6)url(https://www.wmcactionnews5.com/resizer/
+E8cUjpxXheqIs6IToNVFC946JJY=/1200x0/arc-anglerfish- arc2-prod- raycom.s3.amazonaws.com/public/6W67JTXH7BCK7LRZB PPYCPKEPQ.jpg) no-repeat;
+background-blend-mode: darken; background-size: cover;
+font-family: "Poppins", cambria;
+}
+.wrapper{ background: #fff; max-width: 750px; width: 100%; border-radius: 15px; padding: 25px;
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+h1{
+text-align: center;
+text-transform: uppercase; margin-bottom: 20px;
+}
+.about-section{ display: flex;
+}
+img{
+ 
+width: 200px; margin: 10px; border-radius: 10px;
+box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.4);
+}
+p{
+margin: 10px;
+}
+button{ outline: none; border: none;
+cursor: pointer; width: 100px; padding: 8px 12px; background: #1da1f2;
+margin: 25px 20px 0 0; color: white;
+border-radius: 6px;
+}
+button:hover{
+box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<h1>-- About Section --</h1>
+<div class="about-section">
+<img src="About.jpg" />
+ 
+<p>
+A hotel reservation management system is a single source of truth for all of a hotel’s bookings and reservations.
+The most important feature for a hotel reservation system is that it must be a safe and secure centralized hub where all information
+related to bookings can be stored and then retrieved on demand when the hotel requires it.
+<br />
+</p>
+</div>
+</div>
+</body>
+</html>

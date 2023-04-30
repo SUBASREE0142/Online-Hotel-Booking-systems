@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///C:/Users/Dell/Desktop/Web/umb.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> Hotel Reservation System </title>
+<style> <body>
+.container{
+background-color:aqua;
+ 
+}
+.navbar{
+background-color: brown; height: 100px;
+border-radius: 10px;
+}
+.op{
+background-color: white; width: 110px;
+height: 50px; float: left;
+border-radius: 50px; margin-left: 30px; padding: 22px; margin-top: 10px;
+justify-content:center;
+}
+a {
+display: block;
+text-decoration: none;
+}
+ 
+a:visited{
+text-decoration: none;
+}
+a:active{
+background-color: gray;
+}
+.op:hover {
+background-color: violet;
+}
+.home{
+margin-left: 125px;
+}
+.navtopic{
+text-align: center; margin-top: -10px; font-family: fantasy; font-size: 20px; color: black;
+}
+.content{ text-align=center;
+ 
+margin-top: 20px; width: 100%; height: 500px;
+background-color: lightseagreen; border-radius: 20px;
+font-color:black; font-family:Arial;
+}
+</style>
+</head>
+<body align="center"><img src="https://tse1.mm.bing.net/th?id=OIP.EHvyYWINk1gbhj BwRah3aQHaBt&pid=Api&P=0">
+<div class="container">
+<div class="navbar">
+<div class="op login">
+<a href="file:///C:/Users/Dell/Desktop/Web/Login%20and%20 Register.html"><div class="navtopic">
+LOGIN AND REGISTER </div></a>
+</div>
+<div class="op contact">
+ 
+<a href="file:///C:/Users/Dell/Desktop/Web/Contact.html"><d iv class="navtopic">
+CONTACT </div></a>
+</div>
+<div class="op about us">
+<a href="file:///C:/Users/Dell/Desktop/Web/About%20us.htm l"><div class="navtopic">
+ABOUT US </div></a>
+</div>
+<div class="op service">
+<a href="file:///C:/Users/Dell/Desktop/Web/Service.html"><di v class="navtopic">
+SERVICE </div></a>
+</div>
+<div class="op registartion form">
+<a href="file:///C:/Users/Dell/Desktop/Web/Registration.html "><div class="navtopic">
+REGISTRATION FORM </div></a>
+</div>
+ 
+<div class="op gallery">
+<a href="file:///C:/Users/Dell/Desktop/Web/Gallery.html"><di v class="navtopic">
+GALLERY </div></a>
+</div>
+<div class="op rooms">
+<a href="file:///C:/Users/Dell/Desktop/Web/Rooms.html"><di v class="navtopic">
+ROOMS </div></a>
+
+</div>
+<div class="op payment">
+<a href="file:///C:/Users/Dell/Desktop/Web/Payment.html">< div class="navtopic">
+PAYMENT </div></a>
+</div>
+<br>
+<br>
+<br>
+<br>
+ 
+</div>
+</div>
+</div>
+<iframe src="./Hotel Reservation System_files/1.html" class="content" name="content"></iframe>
+</body></html>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="numbertext">1 / 4</div>
+<img src="https://tse2.mm.bing.net/th?id=OIP.bqHsL74PFMaR_ 36OeBrQmQHaEA&pid=Api&P=0">
+</div>
+<div class="mySlides fade">
+<div class="numbertext">2 / 4</div>
+ 
+<img src="https://tse3.mm.bing.net/th?id=OIP.7f5zBj2_x3RG8GY nZEK0swHaEo&pid=Api&P=0">
+</div>
+<div class="mySlides fade">
+<div class="numbertext">3 / 4</div>
+<img src="https://tse2.mm.bing.net/th?id=OIP.FQQW_932qA7YY ym8ex7cQAHaFj&pid=Api&P=0">
+</div>
+<div class="mySlides fade">
+<div class="numbertext">4 / 4</div>
+<img src="https://tse2.mm.bing.net/th?id=OIP.8N5jS4GEb6pUqa MYC-FlgwHaEh&pid=Api&P=0">
+</div>
+</div>
+<br>
+<div style="text-align:center" "margin-top: 200px">
+
+
+<span class="dot"></span>
+<span class="dot"></span>
+ 
+<span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0; showSlides();
+
+function showSlides()
+{
+
+var i;
+var slides = document.getElementsByClassName( "mySlides" );
+var dots = document.getElementsByClassName(
+ 
+"dot" );
+ 
+
+for ( i = 0; i < slides.length; i++ ) { slides[ i ].style.display = "none";
+ 
+}
+slideIndex++;
+if ( slideIndex > slides.length ) { slideIndex = 1 } for ( i = 0; i < dots.length; i++ ) {
+dots[ i ].className = dots[ i ].className.replace( " active", "" );
+}
+ 
+slides[ slideIndex - 1 ].style.display = "block"; dots[ slideIndex - 1 ].className += " active"; setTimeout( showSlides, 2000 ); // Change image
+every 2 seconds
+}
+</script>
+</body>
+</html>

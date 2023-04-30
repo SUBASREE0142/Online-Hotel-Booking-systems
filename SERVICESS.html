@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<meta charset="UTF-8">
+<title> Registartion form </title>
+<style>
+*{
+margin: 0;
+padding: 0;
+font-family: cambria; box-sizing: border-box;
+}
+body{ background:
+url(https://tse2.mm.bing.net/th?id=OIP.lF5VK1jCX1Jq0Im8 ST1FFgHaE8&pid=Api&P=0);
+background-blend-mode: darken; background-size: cover;
+}
+#form{
+background-color: #000000; height:400px;
+width:800px; margin: auto;
+ 
+margin-top: 100px; opacity:0.7;
+}
+#first-group{ border:none; width:400px; margin-top: 38px; position: absolute;
+}
+#content{
+border: 1px solid #fff; margin:10px;
+margin-left: 8px; padding:5px;
+}
+#content #input-group{ border:none; outline:none; background: transparent; margin-left:8px; width:300px;
+ 
+color:#fff;
+}
+::placeholder{ color:#fff;
+}
+#second-group{ border:none; width:400px; margin-top: 55px; margin-left:400px;
+}
+#submit-btn{ margin-top: 30px; margin-left: 600px;
+background: transparent; color:#fff;
+width:150px; border:1px solid red; outline:none; padding:10px;
+font-size: 20px;
+ 
+}
+h1{ color:white;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<form name="Form">
+<form class="form-group">
+<div id="form">
+<h1> Booking Now </h1>
+<div id="first-group">
+<div id="content">
+<input type="text" id="input-group" placeholder="First name" required>
+</div>
+<div id="content">
+<input type="number" id="input-group" placeholder="Phone number" required>
+</div>
+ 
+<div id="content">
+<input type="text" id="input-group" placeholder="Departure Date" required>
+</div>
+<div id="content">
+<select id="input-group" style="backgroundcolor:black;">
+<option value="">No.of guests</option>
+<option value="">1-5</option>
+<option value="">6-10</option>
+<option value="">11-20</option>
+</select>
+</div>
+</div>
+<div id="second-group">
+<div id="content">
+<input type="text" id="input-group" placeholder="Last name" required>
+</div>
+<div id="content">
+<input type="email" id="input-group" placeholder="Email" required>
+ 
+</div>
+<div id="content">
+<input type="text" id="input-group" placeholder="Arrival Date" required>
+</div>
+<div id="content">
+<select id="input-group" style="background-color: black;">
+<option value="">Room Type</option>
+<option value="">AC</option>
+<option value="">Non-AC</option>
+<option value="">Single Bed</option>
+<option value="">Double Bed</option>
+</select>
+</div>
+<div id="content">
+<select id="input-group" style="background-color: black;">
+<option value=""> Others facilities </option>
+<option value=""> Gym </option>
+<option value=""> Bar </option>
+ 
+<option value=""> Swimming </option>
+<option value=""> Business Hall </option>
+<option value=""> Dining Hall
+</option>
+</select>
+</div>
+</div>
+<button type="submit" value="Submit" id="submit-btn"> Book Now </button>
+</div>
+</form>
+</div>
+</body>
+</html>
